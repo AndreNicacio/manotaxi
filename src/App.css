@@ -1,0 +1,110 @@
+:root {
+  --white: #fff;
+  --primary: #4C248E;
+  --secundary:#5A3D8A;
+  --lilac: #CAB0FF;
+  --complementary: #365F82;
+  --complementary2: #6C72FC;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  background: linear-gradient(157.67deg, #FFFFFF 14.37%, #E2CCFD 80.31%);
+  font-size: 1.6rem;
+  max-width: 1920px;
+  
+  
+}
+
+.footer-whats {
+  margin-right: -10px;
+}
+.footer-whats a{
+  margin-right: -10px;
+}
+.footer-whats img {
+  margin-left: -45px;
+  margin-top: 5px;
+}
+
+/* @font-face {
+  font-family: 'SF-Semibold';
+  src: url('/src/fonts/SF-Semibold.ttf') format('truetype');
+} */
+
+@font-face {
+  font-family: 'SF-Semibold';
+  src: url('/src/fonts/SF-Pro-Rounded-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF-Pro-Display';
+  src: url('/src/fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF-Pro-Regular';
+  src: url('/src/fonts/SF-Pro-Rounded-Ultralight.otf') format('opentype');
+}
+/* @font-face {
+  font-family: 'SF-Regular';
+  src: local('SF-Regular'), url(/src/fonts/SF-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SF-Semibold';
+  src: local('SF-Semibold'), url(/src/fonts/SF-Semibold.ttf) format('truetype');
+} */
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+/* img {
+  width: 100%;
+  height: auto;
+} */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+    margin: 50px 0;
+    text-align: center;
+}
+
+@media (max-width: 1060px){
+  html {
+      font-size: 50%;
+  }
+}
+/* @media (max-width: 950px){
+  html {
+      font-size: 40%;
+  }
+}
+@media (max-width: 768px){
+  html {
+      font-size: 35%;
+  }
+}
+
+@media (min-width: 270px){
+  html {
+      font-size: 62.5%;
+  }
+} */
